@@ -51,7 +51,7 @@ export default {
         showDetail() {
             console.log('click')
             this.isShow = !this.isShow;
-        }
+        },
     }
 }
 </script>
@@ -68,7 +68,6 @@ export default {
     overflow: visible;
     font-size: px2rem(40);
     color: #999999;
-
 
     .pocket {
         position: absolute;

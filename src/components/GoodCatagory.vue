@@ -1,7 +1,7 @@
 <template>
     <div class="catagory">
         <ul>
-            <li v-for="(item,key) in catagorys" :key="key" :item="item" @click="selectIndex(key)" :class="{actived:current===key}">{{item.name}}</li>
+            <li v-for="(item,key) in catagorys" :key="key" :item="item" @click="selectIndex(key)" :class="{actived:current===key}" v-text="item.name"></li>
         </ul>
     </div> 
 </template>
@@ -45,7 +45,7 @@ export default {
             border-bottom: px2rem(5) dotted #b3b3b5;
 
             color: #999999;
-            font-size: px2rem(50);
+            font-size: px2rem(40);
             line-height: px2rem(150);
             text-align: center;
 

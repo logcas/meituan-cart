@@ -1,11 +1,9 @@
 # Vue.js 美团外卖购物车
 
-用Vue.js实现的美团外卖购物车，主要要点还是联动菜单的实现。
-
-添加菜单那个球的动画还没写上去，待补。
+用Vue.js实现的美团外卖购物车，主要要点还是联动菜单和小球动画的实现。
 
 # 截图
-![美团购物车](http://ofxvrsjh1.bkt.clouddn.com/%E7%BE%8E%E5%9B%A2.gif)
+![美团购物车](http://pco615n7k.bkt.clouddn.com/%E7%BE%8E%E5%9B%A2.gif)
 
 ## Build Setup
 

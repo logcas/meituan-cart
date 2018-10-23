@@ -11,7 +11,7 @@
         <div class="good-item-price">
             ￥{{good.price}}
         </div>
-        <button class="add" @click="$emit('add-good',good)">+</button>
+        <button class="add" @click="$emit('add-good',$event)">+</button>
     </div>
 </template>
 
